@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melon</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=IBM+Plex+Sans+KR&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="melon-container">
+    <div class="melon-box">
+      <div class="melon-status__bar">
+        <div class="status-bar__time">11:42</div>
+        <div class="status-bar__icon">
+        <div class="status-bar__bluetooth">
+          <i class="fab fa-bluetooth-b"></i>
+        </div>
+        <div class="status-bar__wifi">
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__battery">
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      </div>
+      <header class="melon-header">
+        <div class="melon-header__box">
+          <div class="melon-header__back">
+            <i class="fas fa-chevron-left header-back"></i>
+          </div>
+          <div class="melon-header__title">
+            <span id="header-title">탐색</span>
+          </div>
+        </div>
+      </header>
+      <div class="melon-search">
+        <div class="melon-search__box">
+          <div class="melon-search__name">
+            <span id="search-name">아이유</span>
+          </div>
+          <div class="melon-search__music">
+            <i class="fas fa-music search-music"></i>
+          </div>
+        </div>
+        <div class="search-line"></div>
+      </div>
+      <div class="melon-nav__box">
+        <div class="nav-container">
+        <nav class="meoln-nav">
+          <ul>
+            <li id="entire-nav">통합</li>
+            <li>곡</li>
+            <li>앨범</li>
+            <li>비디오</li>
+            <li>아티스트</li>
+            <li>매거진</li>
+          </ul>
+        
+        </nav>
+      </div>
+      </div>
+      <div class="melon-main__profile">
+        <div class="main-profile__box">
+          <div class="main-profile__title">
+            <div class="profile-title__artist">
+              <span>아티스트</span>
+            </div>
+            <div class="profile-title__more">
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </div>
+          <div class="main-profile__info">
+            <div class="profile-info__image">
+              <a href="profile.html" class="click">
+              <img src="img/iu-profile.png" class="main-profile" alt="iu">
+            </a>
+            </div>
+            <div class="profile-info__detail">
+              <div class="info-detail__singer">
+                <span>아이유</span>
+              </div>
+              <div class="info-detail__genre">
+                <span>솔로 | 발라드, 댄스, 록/메탈</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="melon-main__song">
+        <div class="main-song__popular">
+          <div class="song-popular__cover">
+            <div class="popular-song__play">
+              <i class="fas fa-play popular-play"></i>
+            </div>
+            <img src="img/popular.png" class="popular-cover" alt="popular-song">
+          </div>
+          <div class="song-popular__text">
+            <span>최근 인기</span>
+          </div>
+        </div>
+        <div class="main-song__must">
+          <div class="song-must__cover">
+            <div class="popular-song__play">
+              <i class="fas fa-play popular-play"></i>
+            </div>
+            <img src="img/must.png" class="must-cover" alt="must-song">
+          </div>
+          <div class="song-must__text">
+            <span>필청리스트</span>
+          </div>
+        </div>
+        <div class="main-song__hidden">
+          <div class="song-hidden__cover">
+            <div class="popular-song__play">
+              <i class="fas fa-play popular-play"></i>
+            </div>
+            <img src="img/hidden.png" class="hidden-cover" alt="hidden-song">
+          </div>
+          <div class="song-hidden__text">
+            <span>히든 트랙</span>
+          </div>
+        </div>
+      </div>
+      <div class="melon-main__more">
+        <div class="more-similar__artist">
+          <div class="similar-artist__profile">
+            <a href="similar.html"  class="click">
+            
+            <img src="img/similar.png" class="similar-profile" alt="similar-artist">
+          </a>
+          </div>
+          <div class="similar-artist__info">
+            <div class="similar-info__singer">
+              <span id="similar-info__artist">아이유</span>
+            </div>
+            <div class="similar-info__text">
+              <span id="similar-artist__text">유사 아티스트</span>
+            </div>
+          </div>
+        </div>
+        <div class="more-similar__song">
+          <div class="similar-song__cover">
+          
+            <img src="img/similar-song.png" class="similar-cover"alt="similar-song">
+          </div>
+          <div class="similar-song__info">
+            <div class="similar-song__singer">
+              <span id="similar-song__singer">아이유</span>
+            </div>
+            <div class="similar-song__text">
+              <span id="similar-song__list">같은 느낌</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="melon-play-bar">
+       <div id="play-bar">
+        <div class="play-bar__one"></div>
+        <div class="play-bar__two"></div>
+      </div>
+        <div class="play-bar__box">
+          <div class="play-bar__song">
+            <div class="bar-song__title">
+              <span id="play-song__title">관객이 될게 (I stan U)</span>
+            </div>
+            <div class="bar-song__singer">
+              <span id="play-song__singer">아이유</span>
+            </div>
+          </div>
+          <div class="play-bar__play">
+            <div class="play-bar__backward">
+              <i class="fas fa-step-backward play-bar__icon fa-lg"></i>
+            </div>
+            <div class="play-bar-play__button">
+              <i class="fas fa-play play-bar__icon fa-lg"></i>
+            </div>
+            <div class="play-bar__forward">
+              <i class="fas fa-step-forward play-bar__icon fa-lg"></i>
+            </div>
+            <div class="play-bar__list">
+              <i class="fas fa-list-ul play-bar__icon fa-lg"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="melon-footer">
+        <div class="footer-line"></div>
+        <div class="melon-footer__box">
+          <div class="melon-footer__home">
+            <i class="fas fa-home footer-home fa-lg footer-icon__first"></i>
+          </div>
+          <div class="melon-footer__magazine">
+            <i class="fas fa-newspaper footer-magazine fa-lg footer-icon__second"></i>
+          </div>
+          <div class="melon-footer__search">
+            <i class="fas fa-search footer-search footer-search__icon fa-lg footer-icon__third"></i>
+          </div>
+          <div class="melon-footer__archive">
+            <i class="fas fa-archive footer-archive fa-lg footer-icon__fourth"></i>
+          </div>
+          <div class="melon-footer__more">
+            <i class="fas fa-ellipsis-h footer-more fa-lg footer-icon__fifth"></i>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/cce5bf9183.js" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

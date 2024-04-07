@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FDEB71;
+
+  
+}
+
+.melon-container{
+  width: 400px;
+  height: 750px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  
+  box-shadow: 1px 5px 5px 1px #00dc00;
+}
+
+
+
+
+.melon-box{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.melon-status__bar{
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.status-bar__time{
+  margin-right: 110px;
+  margin-left: 15px;
+  
+}
+
+.status-bar__icon{
+  display: flex;
+  margin-left: 130px;
+  
+  
+}
+.status-bar__bluetooth{
+margin-right: 10px;}
+.status-bar__wifi{
+margin-right: 10px;
+}
+
+.melon-header__box{
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.melon-header__title{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+
+.big-profile{
+  width: 400px;
+  border-radius: 5px;
+  
+}
+
+.big-profile__image{
+  position: relative;
+}
+.close{
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  animation: back 0.5s ease-in-out infinite;
+}
+
+
+
+.play-bar__one{
+  height: 3px;
+  width: 220px;
+  background-color: #00ab00;
+  
+  
+}
+.play-bar__two{
+  height: 3px;
+  width: 180px;
+  background-color: lightgray;
+  
+  
+}
+#play-bar{
+  display: flex;
+  
+  
+}
+.play-bar__box{
+  display: flex;
+  
+}
+.play-bar__song{
+  margin-right: 80px;
+  margin-top: 13px;
+  margin-left: 16px;
+}
+
+.play-bar__play{
+  display: flex;
+  margin-top: 20px;
+  
+  
+  
+}
+#play-song__title{
+font-weight: bold;
+font-size: 17px;
+}
+#play-song__singer{
+  color: grey;
+  font-size: 14px;
+}
+.bar-song__singer{
+  margin-top: 5px;
+}
+.play-bar__icon{
+  margin-right: 20px;
+}
+
+.footer-line{
+  height: 3px;
+  width: 400px;
+  background-color: lightgray;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.melon-footer__box{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  
+}
+.footer-search__icon{
+  color: #00ab00;
+}
+.footer-icon__first{
+  margin-right: 10px;
+}
+.footer-icon__second{
+  margin-right: 10px;
+}
+.footer-icon__fourth{
+  margin-left: 10px;
+}
+.footer-icon__fifth{
+  margin-left: 10px;
+}
+
+
+
+@media screen and (min-width: 300px)and (max-width: 700px){
+  body{
+    background-color: #dddddd;
+  }
+}
+
+@keyframes back{
+  0%{
+    transform:scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

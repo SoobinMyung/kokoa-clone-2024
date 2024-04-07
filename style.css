@@ -1,0 +1,416 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FDEB71;
+
+  
+}
+
+.melon-container{
+  width: 400px;
+  height: 750px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  
+  box-shadow: 1px 5px 5px 1px #00dc00;
+}
+
+
+
+
+.melon-box{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.melon-status__bar{
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.status-bar__time{
+  margin-right: 110px;
+  margin-left: 15px;
+  
+}
+
+.status-bar__icon{
+  display: flex;
+  margin-left: 130px;
+  
+  
+}
+.status-bar__bluetooth{
+margin-right: 10px;}
+.status-bar__wifi{
+margin-right: 10px;
+}
+
+.melon-header__box{
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.melon-header__title{
+  font-weight: bold;
+}
+.header-back{
+  margin-left: -160px;
+}
+.melon-search{
+  margin-bottom: 17px;
+  margin-left: 15px;
+}
+.melon-search__box{
+  display: flex;
+  margin-bottom: 8px;
+}
+.melon-search__music{
+  margin-left: 140px;
+  animation: music-icon 0.5s ease-in-out infinite;
+}
+.melon-search__name{
+  margin-right: 140px;
+}
+
+.search-line{
+  background-color: black;
+  width: 360px;
+  height: 2px;
+}
+ul>li{
+  display: inline;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.nav-container{
+  margin-bottom: 30px;
+  margin-left: 17px;
+}
+#entire-nav{
+  color: #00ab00;
+}
+.main-profile__box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  
+}
+.main-profile__title{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.profile-title__artist{
+  font-weight: bold;
+  margin-right: 220px;
+}
+
+
+.main-profile__info{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.info-detail__singer{
+  color: #00ab00;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.info-detail__genre{
+  color: gray;
+  font-size: 13px;
+}
+
+
+
+.main-profile{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 30px;
+  box-shadow: 0px 10px 16px 0px rgba(19, 206, 102, 0.35);
+  animation: profile 0.5s ease-in-out infinite;
+}
+
+.main-profile:hover{
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.melon-main__song{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.song-popular__text{
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.song-popular__cover{
+  position: relative;
+
+}
+.popular-cover{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  
+}
+.popular-cover:hover{
+  box-shadow: 0px 10px 16px 0px rgba(19, 206, 102, 0.35);
+
+}
+ .popular-play{
+      color: #00dc00;
+    }
+.popular-song__play{
+  position: relative;
+  bottom: -30px;
+  left: 80px;
+}    
+
+.must-cover{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+
+}
+.must-cover:hover{
+  box-shadow: 0px 10px 16px 0px rgba(19, 206, 102, 0.35);
+
+}
+.song-must__text{
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.hidden-cover{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.hidden-cover:hover{
+  box-shadow: 0px 10px 16px 0px rgba(19, 206, 102, 0.35);
+
+}
+
+.song-hidden__text{
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+.similar-profile{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  animation: similar 0.5s ease-in-out infinite;
+}
+
+.similar-cover{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 18px;
+  margin-left: -13px;
+  
+}
+.melon-main__more{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+  
+}
+
+.more-similar__artist{
+  display: flex;
+  width: 180px;
+  height: 60px;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 20px;
+  box-shadow: 0px 10px 16px 0px rgba(19, 206, 102, 0.35);
+  align-items: center;
+  justify-content: center;
+
+}
+.more-similar__artist:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+#similar-info__artist{
+  color:#00ab00;
+  font-weight: bold;
+  
+}
+#similar-artist__text{
+  font-size: 13px;
+  margin-top: 10px;
+}
+.more-similar__song{
+  display: flex;
+  width: 180px;
+  height: 60px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 10px 16px 0px rgba(19, 206, 102, 0.35);
+  justify-content: center;
+  align-items: center;
+  
+}
+.more-similar__song:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+#similar-song__singer{
+  color:#00ab00;
+  font-weight: bold;
+}
+#similar-song__list{
+  font-size: 13px;
+  margin-top: 10px;
+}
+.play-bar__one{
+  height: 3px;
+  width: 220px;
+  background-color: #00ab00;
+  
+  
+}
+.play-bar__two{
+  height: 3px;
+  width: 180px;
+  background-color: lightgray;
+  
+  
+}
+#play-bar{
+  display: flex;
+  
+  
+}
+.play-bar__box{
+  display: flex;
+  
+}
+.play-bar__song{
+  margin-right: 80px;
+  margin-top: 13px;
+  margin-left: 16px;
+}
+
+.play-bar__play{
+  display: flex;
+  margin-top: 20px;
+  
+  
+  
+}
+#play-song__title{
+font-weight: bold;
+font-size: 17px;
+}
+#play-song__singer{
+  color: grey;
+  font-size: 14px;
+}
+.bar-song__singer{
+  margin-top: 5px;
+}
+.play-bar__icon{
+  margin-right: 20px;
+}
+
+.footer-line{
+  height: 3px;
+  width: 400px;
+  background-color: lightgray;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.melon-footer__box{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  
+}
+.footer-search__icon{
+  color: #00ab00;
+}
+.footer-icon__first{
+  margin-right: 10px;
+}
+.footer-icon__second{
+  margin-right: 10px;
+}
+.footer-icon__fourth{
+  margin-left: 10px;
+}
+.footer-icon__fifth{
+  margin-left: 10px;
+}
+
+@keyframes music-icon{
+  0%{
+    transform:scale(1);
+  }
+  50%{
+    transform: scale(1.3);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+@media screen and (min-width: 300px)and (max-width: 700px){
+  body{
+    background-color: #dddddd;
+  }
+}
+
+@keyframes similar{
+  0%{
+    transform:scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+
+@keyframes profile{
+  0%{
+    transform:scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
